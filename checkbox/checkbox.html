@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .normal-box {
+        position: relative;
+    }
+    input[type="checkbox"] { position: absolute; clip: rect(0,0,0,0); }
+    input[type='checkbox'] + label::before {
+        content: '\a0'; /* non-break space */
+        width: 20px;
+        height: 20px;
+        background: gray;
+        text-align: center;
+        display: inline-block;
+        line-height: 1.5;
+        font-size: 12px;
+        border-radius: 50%;
+    }
+    input[type="checkbox"]:checked + label::before {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: red;
+        content:'\2713';
+        text-align: center;
+        display: inline-block;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+</style>
+<body>
+
+<div class="normal-box">
+    <input class="special-box" type="checkbox" id="awesome">
+    <label for="awesome" class="special-label">awesome</label>
+</div>
+</body>
+</html>
