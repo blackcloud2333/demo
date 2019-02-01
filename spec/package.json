@@ -1,0 +1,14 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "jtest": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/jtest/-/jtest-0.0.1.tgz",
+      "integrity": "sha1-oNwTkRpH+bK3ldg/kc07Po14D8k="
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
