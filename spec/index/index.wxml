@@ -1,0 +1,14 @@
+<template name="029de4bb">
+  <view class="_div data-v-07bfcc04 to_off_acc">
+    <official-account class="_official-account data-v-07bfcc04 official_account" bindload="handleProxy" binderror="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></official-account>
+    <view class="_div data-v-07bfcc04 text">
+      <view class="_h2 data-v-07bfcc04 special-text">预约体检</view>
+      <view class="_h2 data-v-07bfcc04 special-text">请进入<label class="_span data-v-07bfcc04 color-blue">“善诊”</label>公众号</view>
+      <view class="_div data-v-07bfcc04 special-next">为了保证您的个人信息安全， <view class="_br data-v-07bfcc04"></view>预约/查看报告以及修改订单需进入公众号操作 </view>
+      <view class="_div data-v-07bfcc04 {{[true ? 'button' : '', !supportOfficialAccount ? 'button_show' : '']}}"><button open-type="contact" class="_button data-v-07bfcc04 special-btn" send-message-title="请按照客服提示预约体检" send-message-path="../detail/main" send-message-img="https://static.shanzhen.me/images/mini/wx-cooperate/toOfficialAccount/send-message-img.png" show-message-card="true">回复“预约”进入公众号</button></view>
+      <view class="_div data-v-07bfcc04 bottom-image">
+        <image src="https://static.shanzhen.me/images/mini/wx-cooperate/index/img-b.png" class="_img data-v-07bfcc04 {{[supportOfficialAccount ? 'taller' : '']}}"></image>
+      </view>
+    </view>
+  </view>
+</template>

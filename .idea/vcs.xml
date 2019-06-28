@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/typescript-vue-todomvc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-cli-nightwatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-test-utils-jest-example" vcs="Git" />
   </component>
 </project>

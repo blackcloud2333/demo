@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e1862a-5492-43d6-a584-32299f6ac7a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/line-height/line-height.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/typescript-vue-todomvc/ts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typescript-vue-todomvc" beforeDir="false" afterPath="$PROJECT_DIR$/typescript-vue-todomvc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/helloworld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/helloworld.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/helloworld.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-cli-nightwatch/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-cli-nightwatch/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-cli-nightwatch/tests/e2e/specs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-cli-nightwatch/tests/e2e/specs/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-test-utils-jest-example/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-test-utils-jest-example/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-test-utils-jest-example/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-test-utils-jest-example/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/line-height/line-height.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -102,7 +104,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
     <option name="y" value="123" />
     <option name="width" value="1080" />
     <option name="height" value="1647" />
@@ -119,22 +120,6 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="line-height" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="typescript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -210,11 +195,12 @@
       <workItem from="1548831195892" duration="11791000" />
       <workItem from="1549954718428" duration="20075000" />
       <workItem from="1550197625118" duration="1063000" />
+      <workItem from="1551166514465" duration="1090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32929000" />
+    <option name="totallyTimeSpent" value="34019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,23 +212,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="123" width="1080" height="1647" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="123" width="1080" height="1647" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2552182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960525" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294766" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.3491461" visible="true" weight="0.4625" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6508539" side_tool="true" visible="true" weight="0.4625" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960525" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.34819734" visible="true" weight="0.4625" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.65180266" side_tool="true" weight="0.4625" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -430,10 +415,13 @@
     <entry file="file://$PROJECT_DIR$/typescript-vue-todomvc/ts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/line-height/line-height.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
